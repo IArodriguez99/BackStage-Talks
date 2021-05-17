@@ -22,9 +22,6 @@ body.fp-viewing-issue1 {
     background: #E30512;
 }
 
-html{
-    scroll-snap-type: mandatory;
-}
 
 p{
     color: #251d20;
@@ -43,6 +40,9 @@ a:hover, a:focus, a:active{
     text-decoration: underline;
 }
 
+.absoulute{
+    position: relative;
+}
 .copyright {
     font-size: .75rem;
     font-weight: normal;
@@ -62,7 +62,7 @@ a:hover, a:focus, a:active{
 }
 
 .header{
-    position: fixed;
+    position: absoulute;
     padding-top: .75rem;
     padding-left: .5rem;
 }
@@ -73,32 +73,49 @@ a:hover, a:focus, a:active{
 }
 
 .email{
-    position: fixed;
+    position: absoulute;
     right: 1rem;
 }
 
 .description{
-    position: fixed;
+    position: absoulute;
     bottom: 0;
     left: 1.3rem;
     width:16%;
 }
 
 .menu{
-    position: fixed;
+    position: absolute;
     bottom: 0;
     right: 1rem;
     font-size: 1.1rem;
     line-height: 1.6;
     list-style: none;
+    z-index: 3;
+    display: none;
 }
 
 .menu a{
     text-decoration: none;
 }
-.menu:hover{
+.menu a:hover{
   text-decoration: underline;
 }
+
+}
+body.fp-viewing-issue1 .menu a.issue1 {
+    font-weight: bold;
+}
+body.fp-viewing-issue2 .menu a.issue2 {
+    font-weight: bold;
+}
+body.fp-viewing-issue3 .menu a.issue3 {
+    font-weight: bold;
+}
+body.fp-viewing-issue4 .menu a.issue4 {
+    font-weight: bold;
+}
+
 
 .cover{
     text-align: center;
