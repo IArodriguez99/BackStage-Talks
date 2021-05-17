@@ -1,0 +1,111 @@
+body{
+    
+    background: #00c1b5;
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-transition: background-color 500ms ease-out 200ms;
+    -moz-transition: background-color 500ms ease-out 200ms;
+    -o-transition: background-color 500ms ease-out 200ms;
+    transition: background-color 500ms ease-out 200ms;
+}
+
+body.fp-viewing-issue4 {
+    background: #ff6519;
+}
+body.fp-viewing-issue3 {
+    background: #ffbe00;
+}
+body.fp-viewing-issue2 {
+    background: #1d3fbb;
+}
+body.fp-viewing-issue1 {
+    background: #E30512;
+}
+
+p{
+    color: #251d20;
+    font-size: 1.1rem;
+    font-weight: bold;
+    line-height: 1.6rem;
+}
+
+a{
+    color: #251d20;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active{
+    color: #251d20;
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: .75rem;
+    font-weight: normal;
+}
+
+.orin{
+    font-size: 15px;
+    padding-top: 3px;
+    line-height: 22px;
+}
+.orin a{
+    color: #FFF;
+    text-decoration: none;
+}
+.orin a:hover{
+    text-decoration: underline;
+}
+
+.header{
+    position: fixed;
+    padding-top: .75rem;
+    padding-left: .5rem;
+}
+
+.header-img{
+    height: 50%;
+    width: 50%;
+}
+
+.email{
+    position: fixed;
+    right: 1rem;
+}
+
+.description{
+    position: fixed;
+    bottom: 0;
+    left: 1.3rem;
+    width:16%;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    right: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    list-style: none;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.menu:hover{
+  text-decoration: underline;
+}
+
+
+
+.cover{
+    text-align: center;
+    padding-top: 8rem;
+}
+
+.cover-img{
+    width: 26.25rem;
+}
+
