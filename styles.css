@@ -40,9 +40,8 @@ a:hover, a:focus, a:active{
     text-decoration: underline;
 }
 
-.absoulute{
-    position: relative;
-}
+
+
 .copyright {
     font-size: .75rem;
     font-weight: normal;
@@ -62,36 +61,35 @@ a:hover, a:focus, a:active{
 }
 
 .header{
-    position: absoulute;
     padding-top: .75rem;
     padding-left: .5rem;
 }
 
 .header-img{
-    height: 50%;
-    width: 50%;
+    width: 14%;
 }
 
-.email{
-    position: absoulute;
+.contact{
+    position: fixed;
     right: 1rem;
+    bottom: 54.5rem;
 }
 
 .description{
-    position: absoulute;
+    position: fixed;
     bottom: 0;
     left: 1.3rem;
     width:16%;
 }
 
-.menu{
-    position: absolute;
+
+{
+    position: relative;
     bottom: 0;
-    right: 1rem;
+    right: 1.3rem;
     font-size: 1.1rem;
     line-height: 1.6;
     list-style: none;
-    z-index: 3;
     display: none;
 }
 
@@ -102,7 +100,7 @@ a:hover, a:focus, a:active{
   text-decoration: underline;
 }
 
-}
+
 body.fp-viewing-issue1 .menu a.issue1 {
     font-weight: bold;
 }
@@ -119,10 +117,7 @@ body.fp-viewing-issue4 .menu a.issue4 {
 
 .cover{
     text-align: center;
-    padding-top: 8rem;
-    height: 100%;
-    width: 100%;
-    scroll-snap-align: start;
+    padding-top: 5rem;
 }
 
 .cover-img{
