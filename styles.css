@@ -35,12 +35,12 @@ a{
     text-decoration: none;
 }
 
-a:hover, a:focus, a:active{
+a:hover, 
+a:focus, 
+a:active{
     color: #251d20;
     text-decoration: underline;
 }
-
-
 
 .copyright {
     font-size: .75rem;
@@ -79,18 +79,22 @@ a:hover, a:focus, a:active{
     position: fixed;
     bottom: 0;
     left: 1.3rem;
-    width:16%;
+    display: flex;
+    flex-direction: row;
+    z-index: ;
 }
 
+.description p{
+    width: 18%;
+}
 
-{
-    position: relative;
-    bottom: 0;
+.menu{
+    position: fixed;
+    bottom: 2rem;
     right: 1.3rem;
     font-size: 1.1rem;
     line-height: 1.6;
     list-style: none;
-    display: none;
 }
 
 .menu a{
