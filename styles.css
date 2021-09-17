@@ -1,5 +1,4 @@
 body{
-    
     background: #00c1b5;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -61,8 +60,7 @@ a:active{
 }
 
 .header{
-    padding-top: .75rem;
-    padding-left: .5rem;
+    padding-top: .75rem;  
 }
 
 .header-img{
@@ -81,7 +79,7 @@ a:active{
     left: 1.3rem;
     display: flex;
     flex-direction: row;
-    z-index: ;
+    z-index: 5;
 }
 
 .description p{
@@ -117,14 +115,19 @@ body.fp-viewing-issue3 .menu a.issue3 {
 body.fp-viewing-issue4 .menu a.issue4 {
     font-weight: bold;
 }
+body.fp-viewing-issue5 .menu a.issue5 {
+    font-weight: bold;
+}
 
 
 .cover{
     text-align: center;
-    padding-top: 5rem;
+    position: fixed;
+    left: 38%;
+    z-index: 100;
 }
 
 .cover-img{
-    width: 26.25rem;
+    width: 24rem;
 }
 
