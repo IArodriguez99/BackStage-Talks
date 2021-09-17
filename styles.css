@@ -44,12 +44,14 @@ a:active{
 .copyright {
     font-size: .75rem;
     font-weight: normal;
+    z-index: 8;
 }
 
 .orin{
     font-size: 15px;
     padding-top: 3px;
     line-height: 22px;
+    z-index: 6;
 }
 .orin a{
     color: #FFF;
@@ -61,6 +63,7 @@ a:active{
 
 .header{
     padding-top: .75rem;  
+    padding-left: .75rem;
 }
 
 .header-img{
@@ -77,13 +80,8 @@ a:active{
     position: fixed;
     bottom: 0;
     left: 1.3rem;
-    display: flex;
-    flex-direction: row;
-    z-index: 5;
-}
-
-.description p{
     width: 18%;
+    z-index: 2;
 }
 
 .menu{
@@ -93,6 +91,7 @@ a:active{
     font-size: 1.1rem;
     line-height: 1.6;
     list-style: none;
+    z-index: 2;
 }
 
 .menu a{
@@ -122,9 +121,9 @@ body.fp-viewing-issue5 .menu a.issue5 {
 
 .cover{
     text-align: center;
+    min-width: min-content;
     position: fixed;
     left: 38%;
-    z-index: 100;
 }
 
 .cover-img{
