@@ -21,87 +21,6 @@ body.fp-viewing-issue1 {
     background: #E30512;
 }
 
-
-p{
-    color: #251d20;
-    font-size: 1.1rem;
-    font-weight: bold;
-    line-height: 1.6rem;
-}
-
-a{
-    color: #251d20;
-    text-decoration: none;
-}
-
-a:hover, 
-a:focus, 
-a:active{
-    color: #251d20;
-    text-decoration: underline;
-}
-
-.copyright {
-    font-size: .75rem;
-    font-weight: normal;
-    z-index: 8;
-}
-
-.orin{
-    font-size: 15px;
-    padding-top: 3px;
-    line-height: 22px;
-    z-index: 6;
-}
-.orin a{
-    color: #FFF;
-    text-decoration: none;
-}
-.orin a:hover{
-    text-decoration: underline;
-}
-
-.header{
-    padding-top: .75rem;  
-    padding-left: .75rem;
-}
-
-.header-img{
-    width: 14%;
-}
-
-.contact{
-    position: fixed;
-    right: 1rem;
-    bottom: 54.5rem;
-}
-
-.description{
-    position: fixed;
-    bottom: 0;
-    left: 1.3rem;
-    width: 18%;
-    z-index: 2;
-}
-
-.menu{
-    position: fixed;
-    bottom: 2rem;
-    right: 1.3rem;
-    font-size: 1.1rem;
-    line-height: 1.6;
-    list-style: none;
-    z-index: 2;
-}
-
-.menu a{
-    text-decoration: none;
-}
-.menu a:hover{
-  text-decoration: underline;
-}
-
-
 body.fp-viewing-issue1 .menu a.issue1 {
     font-weight: bold;
 }
@@ -118,15 +37,100 @@ body.fp-viewing-issue5 .menu a.issue5 {
     font-weight: bold;
 }
 
+.header{
+    padding-top: .5rem;  
+    padding-left: .3rem;
+}
+
+.header-img{
+    width: 14%;
+}
+
+.info{
+    position: fixed;
+    right: 10px;
+    top: 0%;
+    font-size: 0.85rem;
+}
+
+.info a{
+    text-decoration: none;
+    color: #251d20;
+}
+
+.description{
+    position: fixed;
+    bottom: 0;
+    left: 16px;
+    width: 18%;
+    z-index: 2;
+}
+
+p{
+    color: #251d20;
+    font-size: 0.85rem;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+.description a{
+    color: #251d20;
+    text-decoration: underline;
+}
+
+a:hover, 
+a:focus, 
+a:active{
+    color: #251d20;
+    text-decoration: underline;
+}
+
+.copyright {
+    font-size: 0.5rem;
+    font-weight: normal;
+    z-index: 8;
+}
+
+.menu{
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+    font-size: 0.85rem;
+    line-height: 1.6;
+    list-style: none;
+    z-index: 2;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.menu a:hover{
+  text-decoration: underline;
+}
 
 .cover{
+    padding-top: 2rem;
     text-align: center;
     min-width: min-content;
     position: fixed;
-    left: 38%;
+    left: 39%;
 }
 
 .cover-img{
-    width: 24rem;
+    width: 20rem;
+}
+
+.orin{
+    font-size: 15px;
+    padding-top: 3px;
+    line-height: 25px;
+    z-index: 6;
+}
+.orin a{
+    color: #FFF;
+    text-decoration: none;
+}
+.orin a:hover{
+    text-decoration: underline;
 }
 
